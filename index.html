@@ -1,27 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GGLHNNL8TR"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-GGLHNNL8TR');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADHDecide: Simple Decision-Making Tool for ADHD | Quick Yes/No Answers</title>
-    <meta name="description" content="ADHDecide helps people with ADHD make quick decisions using a simple tarot-inspired card draw. Get instant yes/no answers and reduce decision paralysis.">
-    <meta name="keywords" content="ADHD, decision-making, tarot, quick decisions, ADHD tools">
-    <link rel="canonical" href="https://www.adhdecide.com">
-    <script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "WebApplication",
-      "name": "ADHDecide",
-      "description": "A simple decision-making tool for people with ADHD, using tarot-inspired card draws for quick yes/no answers.",
-      "url": "https://www.adhdecide.com",
-      "applicationCategory": "HealthApplication",
-      "operatingSystem": "All"
-    }
-    </script>
+    <title>ADHD Yes No Tarot</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2720946642168699" crossorigin="anonymous"></script>
     <style>@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');</style>
     <style>
+        
         body {
-            
+            font-family: "Rye", serif;
             font-weight: 400;
             font-style: normal;
             background-color: #2c2c2c;
@@ -38,23 +35,14 @@
         .app-container {
             width: 100%;
             max-width: 300px;
-        }        
-        header {
-            width: 100%;
-            max-width: 300px;
-        }
-        main {
-            width: 100%;
-            max-width: 300px;
         }
         h1 {
-            color: #f3ce99;
+            color: #c9a95c;
             margin-bottom: 20px;
             text-align: center;
             font-size: 24px;
         }
         .card-container {
-            font-family: "Rye", serif;
             width: 100%;
             height: 600px;
             perspective: 1000px;
@@ -133,75 +121,24 @@
         button:hover {
             background-color: #d6b978;
         }
-        a{
-            font-size: 14px;
-            line-height: 1;
-            text-align: center;
-            color: #f3ce99;
-            padding: 10px;
-            border-radius: 5px;
-            flex-grow: 0.1;
-            display: flex;
-            align-items: center;
-        }
-        ul{
-            text-decoration: none;
-        }
     </style>
 </head>
 <body>
-    <!--header>
-        <h1>ADHDecide: ADHD-Friendly Decision Tool</h1>
-        <nav>
-            <ul>
-                <li><a href="#how-it-works">How It Works</a></li>
-                <li><a href="#why-use">Why Use ADHDecide</a></li>
-                <li><a href="#about-adhd">About ADHD and Decision-Making</a></li>
-            </ul>
-        </nav>
-    </header-->
-
-    <main>
-        <div class="app-container">
-            <div class="card-container">
-                <div class="card" id="card" onclick="drawCard()">
-                    <div class="card-face card-front">
-                        <img src="svg/sphere.png" alt="Crystal Ball" class="card-symbol">
-                        <div class="card-title">Ask a question and draw a card</div>
-                    </div>
-                    <div class="card-face card-back">
-                        <div class="card-answer" id="cardAnswer"></div>
-                        <img id="cardSymbol" src="" alt="Tarot Card Symbol" class="card-symbol">
-                        <div class="card-description" id="cardDescription"></div>
-                    </div>
+    <div class="app-container">
+        <div class="card-container">
+            <div class="card" id="card" onclick="drawCard()">
+                <div class="card-face card-front">
+                    <img src="svg/sphere.png" alt="Crystal Ball" class="card-symbol">
+                    <div class="card-title">Ask a question and draw a card</div>
+                </div>
+                <div class="card-face card-back">
+                    <div class="card-answer" id="cardAnswer"></div>
+                    <img id="cardSymbol" src="" alt="Tarot Card Symbol" class="card-symbol">
+                    <div class="card-description" id="cardDescription"></div>
                 </div>
             </div>
         </div>
-
-        <section id="how-it-works">
-            <h2>How ADHDecide Works</h2>
-            <p>Simply ask a yes/no question, click the card, and receive instant guidance. Our tarot-inspired system is designed to help those with ADHD make quick decisions without overwhelming choices.</p>
-        </section>
-
-        <section id="why-use">
-            <h2>Why Use ADHDecide</h2>
-            <ul>
-                <li>Simplifies decision-making process</li>
-                <li>Reduces decision paralysis common in ADHD</li>
-                <li>Provides quick, clear yes/no answers</li>
-                <li>Offers insightful explanations for each card drawn</li>
-            </ul>
-        </section>
-
-        <section id="about-adhd">
-            <h2>About ADHD and Decision-Making</h2>
-            <p>People with ADHD often struggle with decision-making due to executive function challenges. ADHDecide aims to alleviate this by providing a simple, engaging tool to facilitate quicker choices.</p>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 ADHDecide. All rights reserved.</p>
-    </footer>
+    </div>
 
     <script>
     const tarotCards = [
